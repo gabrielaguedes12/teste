@@ -1,0 +1,158 @@
+/*external*/
+
+body{
+    padding-bottom: 500%;
+}
+
+h3{
+    color: green;
+}
+
+p{
+    color: blueviolet;
+}
+
+/*classes*/
+
+.paragraph{
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+/*ids*/
+#exclusive-title{
+    background-color: goldenrod;
+    color: purple;
+    padding: 10px
+}
+
+/*id>class>tag*/
+/* ordem das regras */
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+#algum_titulo{
+    border-bottom: 4px solid green;
+}
+
+/*Nome de cores*/
+.color-name{
+    color: rgb(80, 113, 14);
+} 
+
+/* hex */
+.hex{
+    color:#55a398;
+}
+
+.hex2{
+    color: #c41392;
+}
+
+/*aprofundando em hex*/
+.simple-hex{
+    color:#333;
+}
+
+.simple-hex-2{
+    color:#A5F;
+}
+
+/*rgb*/
+.rgb{
+    color: rgb(255,0,0)
+}
+
+.rgb-2{
+    color: rgb(190,86,80)
+}
+
+/*rgba-mexe com a opacidade*/
+.rgba{
+    color:rgba(100,199,45,0.2)
+}
+
+/*hsl*/
+.hsl{
+    color: hsl(100,20%,50%)
+}
+
+.hsl-2{
+    color: hsl(200,40%,40%)
+}
+
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgb(205, 221, 180);
+    color: blue;
+}
+
+/*opacidade*/
+.bg-opacidade{
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacidade-2{
+    background-color: rgb(128, 0, 100);
+    opacity: 0.2;
+}
+
+/*rgba com opacidade*/
+.rgba-opacidade{
+    background-color: rgba(90,120,20);
+    color:#f8f3f3;
+}
+
+/*image*/
+.bg-image{
+    background-image: url("../imagens/nature.jpg");
+    padding: 10px;    
+    color:white;
+}
+
+/*centralizando bg image*/
+.not-centered-bg,
+.centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url(../imagens/bridge.jpg);
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+/*altura e largura*/
+.height-width{
+   height: 100px;
+   width: 200px; 
+   background-color: yellow;
+}
+
+.height-width-2{
+    height: 300px;
+    background-color: #333;
+}
+
+/*padding*/
+.without-padding,
+.padding{
+    background-color: #111;
+    color:#fff;
+}
+
+.padding{
+    padding: 20px;
+}
