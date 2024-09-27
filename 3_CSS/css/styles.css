@@ -166,3 +166,30 @@ h2{
     padding-bottom: 40px;
    
 }
+
+/*shorthandd*/
+.shorthand-padding{
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2{
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+/*border-box*/
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
