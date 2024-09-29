@@ -193,3 +193,27 @@ h2{
     padding: 50px;
     box-sizing: border-box;
 }
+
+.border{
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border-2{
+    border: 2px dotted #931;
+    padding: 25px;
+}
+
+.border-left{
+    border-left:3px solid red;
+    color:#fff;
+    background-color:#222;
+    padding:25px;
+}
+
+.border-bottom{
+    border-bottom: 5px double #399;
+    background-color:#222;
+    padding:20px;
+}
+
